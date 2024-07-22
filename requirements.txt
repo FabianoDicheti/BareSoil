@@ -1,0 +1,18 @@
+numpy == 1.25.2
+pandas
+scipy == 1.11.3
+earthengine-api
+ee
+fastapi
+GDAL
+fastkml
+geojson
+geemap
+Pillow
+datetime
+pykml
+matplotlib
+uvicorn
+python-multipart
+imageio
+

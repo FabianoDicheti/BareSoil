@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ee-fabiano-unioeste",
+  "private_key_id": "a674d361c16324814714495a0d09b2c732def671",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCoarSRJ3dETjWs\nl6C2EBGzM6g2VaNvs50dFVentWmX5HLdLKnAd/W1Syx+NjV4FzibtP7jp8cr+/vn\nlTG5O7NtPdACYXt+toOKP2NPFenZQu3QOyJKMhTxA0RTJ3WmUqplTgAEHOgXj6/q\nH6V6rLefYEjPHkQhMLucnbEKAKR7jlF3LDCBnB7dJnXbBU3pDdgpDlCD5N9a7zXN\n+kqcQEpWnINkRZri/swmfWu3HQftUsXPtwlFIifRq4xK/k7+rTjT7wWx6yVBT9pu\nbXPwFzoBjwTH72JqvZq3/5FcgfR9zjf6hn5S2sfY+N0LzWTVaHr0cbITXZWujjpu\nVKqbi+A7AgMBAAECggEABQZ2D9S5ItEgmd9GXNha5tl2PfTNNSKLYBhIbskjdvRK\nlx3jjMonizrMf5GXg9dRiZfbeSiC8WWJ7S2O98N3xZ0wDToiaLQCdcgRawUw3po4\nJVv2WHdpF43s5nxJbuaNjgtHRdgk9rsDWT2Lfv8TVY6WbZOuHb1qA7DS3QUK42Ld\n1AQIqS1S28pZVU0e6GPbQ540itgg8bjH9g11uS9yWOGrzpl4O1wbLFY3CLw259fB\newz4yXngF+bLBTNSRsPypmKapM3hY5649zM3MosTctQRFXl3PtzL5BGpbqNDc4VS\nbKlR3QbHQ3D4CWrq+23RklbHjTTpR479eEEWwBizzQKBgQDanMI1Z2CV4xy3ua03\nlFBgBFS7EhNq7gDHMDGJojsdA7SzbQpgEUq2MbHTBeQniug0PBYb3ayfCK2SOCEa\nO2qbBEZyIbg+HMhcIobJRupr/uXtzj9pSdCjsDgMAtEsdJQ8pDu6eVjNxBvuE9UA\nwcyw3RnBumrItK4L4On+Kyu3lwKBgQDFOEvpy1wP7tFeWQ2zjk6hpWqOkLDzXXRE\nOO0ch/kQN96fsF8Odkg1lEMBfpeCDeQUMAKcDHQVzrOg7EP5xnAvaHdIsXKREUU9\ngTlqvdLNoVMoL1rqnqlyPKlHprUGP3Q+wmTg/3QxbcmxMVDmrqKpielltmzQL/kN\nM/7dxNIQ/QKBgA02dkJ2Cg9lF6I/FaoLS8RR3rEjyYqn8eIYFpZj+MCrLau+hmcC\nBIr4e+/uJjkBm0E09H0gq8M86gixXcbRGoNeAcf6I8GVScLPz2ew4pA+arUxxwFd\nFcAe8XRAY1YVgbQclQOTO/vLw4hjKHeQPwfdhSYBV1zkFrTfFiVnhI/nAoGAX963\n+FSk0hHzsPt1T52T17xDij4H5qW9SRSrHr1yc1HVZKcl7i/Ndk42LFnPaKc8Ahw8\niIL9Q0SRyV5QxPCTxFfx9GJeIOrWT8mrkZnpCZCsjdJHTdoG4MNgPrZpNTpPVdrF\nkyJa51RJQVuJyjmGVQf3bzw4tRM87BAkisWMoDkCgYBjyU4ZBn4O97s66p+wJLzU\nz9NkKtHs2xnv7Eyr//cLs2PVgVIhS4gmgbqOYiqVb5fX84mkeDvrnI8U0CVI5zEq\n16p5PlwXMDrr+F729xFZir6daLioc9A2jAbteDBmr7rOVFPikahhWQVZmWxBEGJl\nqAleV4LJdTikBwct5F1HXw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "unioeste-fabiano@ee-fabiano-unioeste.iam.gserviceaccount.com",
+  "client_id": "113034730357873458168",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/unioeste-fabiano%40ee-fabiano-unioeste.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

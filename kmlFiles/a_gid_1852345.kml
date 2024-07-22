@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="gid_1852345.schema">
+      <SimpleField name="gid" type="int"/>
+      <SimpleField name="cena" type="string"/>
+      <SimpleField name="bioma" type="string"/>
+      <SimpleField name="ano_des" type="string"/>
+      <SimpleField name="fonte" type="string"/>
+      <SimpleField name="mi" type="string"/>
+      <SimpleField name="uf" type="string"/>
+      <SimpleField name="geocodigo" type="string"/>
+      <SimpleField name="nome" type="string"/>
+      <SimpleField name="area_km2" type="float"/>
+      <SimpleField name="area_ha" type="float"/>
+      <SimpleField name="sigla" type="int"/>
+    </Schema>
+    <Document id="gid_1852345">
+      <name>gid_1852345</name>
+      <Placemark id="gid_1852345.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#gid_1852345.schema">
+            <SimpleData name="gid">1852345</SimpleData>
+            <SimpleData name="bioma">CERRADO</SimpleData>
+            <SimpleData name="ano_des">2008-2009</SimpleData>
+            <SimpleData name="fonte">CSR-IBAMA/MMA</SimpleData>
+            <SimpleData name="mi">0433</SimpleData>
+            <SimpleData name="geocodigo">0</SimpleData>
+            <SimpleData name="area_km2">1.0594860628200000185472617886262</SimpleData>
+            <SimpleData name="area_ha">105.9486062820299991926731308922172</SimpleData>
+            <SimpleData name="sigla">12</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -53.0039362618789,-18.8449296853635,0
+                -53.0036562588633,-18.84437968438,0
+                -53.0035962565965,-18.8436196822729,0
+                -53.0035762558493,-18.8433696815804,0
+                -53.0042162587619,-18.8430496791711,0
+                -53.0054262641042,-18.8423796744244,0
+                -53.0065862695091,-18.8418496702055,0
+                -53.0074562725216,-18.8410396658233,0
+                -53.0065562649441,-18.8401096651356,0
+                -53.0064962611136,-18.8387296611972,0
+                -53.0064462583506,-18.837749658417,0
+                -53.0064062578406,-18.8376396581836,0
+                -53.0053362518233,-18.8377196608672,0
+                -53.0020562326576,-18.8376796682507,0
+                -52.9981962102197,-18.8376796770785,0
+                -52.9950661924274,-18.8378396847092,0
+                -52.9919061744595,-18.8379996924084,0
+                -52.9900861652398,-18.8385396981662,0
+                -52.9894961637012,-18.839289701732,0
+                -52.9892261651079,-18.8404697058368,0
+                -52.9886861653233,-18.8417997110023,0
+                -52.9898661727646,-18.8420297089831,0
+                -52.9912661802234,-18.8417597049832,0
+                -52.9925561877237,-18.8417597020327,0
+                -52.9934661943769,-18.8422997015468,0
+                -52.9940061983238,-18.842619701257,0
+                -52.9954562079649,-18.8430996993584,0
+                -52.9967462157421,-18.8432096967324,0
+                -52.9979762235739,-18.8434796947163,0
+                -52.9996462346449,-18.8440196924909,0
+                -53.0024362520745,-18.8444996875256,0
+                -53.0039362618789,-18.8449296853635,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
