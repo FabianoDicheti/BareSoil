@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-
 @author: fabiano dicheti
 """
 import numpy as np

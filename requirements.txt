@@ -15,4 +15,4 @@ matplotlib
 uvicorn
 python-multipart
 imageio
-
+scikit-learn

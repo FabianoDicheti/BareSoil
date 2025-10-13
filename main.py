@@ -11,6 +11,7 @@ from CommonEstimation import CommonBare
 from utils import read_tif_images, download_from_kml
 from plots import plot_decomposition
 from ndvirgb import convert_ndvi_image
+from kmeans import plot_elbow_curve, create_cluster_csv, create_cluster_csv_xy
 
 def main():
 
@@ -50,23 +51,12 @@ def main():
         winter_decomposition.append(decomposition_endmembers)
         simplified_percent.append(CommonBare.common_bare_percent(red_band, nir_band))
         
-    try:
+    '''try:
         for item in os.listdir('./static'):
             arquivo = os.path.join('./static', item)
             convert_ndvi_image(arquivo)
     except Exception as e:
-        error_book.append(e)
-        
-    # download RGB images to analisis
-    if len(verify_kml_files) > 0:
-         offset_list, images_list, error = download_from_kml('2023-05-05', ['B4','B3','B2'])
-         error_book.append(error)
-         image_directory = './static'
-         if len(images_list) == 0:
-             image_directory = './imageSamples'
-             error_book.append('not a single image was downloaded from kml files, check errors above.')
-    else:
-         print('no kml for imagens to RGB download')
+        error_book.append(e)'''
     
     # plot decomposition graph
     try:
@@ -74,7 +64,21 @@ def main():
             plot_decomposition(winter_decomposition[i], names[i])
     except Exception as e:
         error_book.append(e)
-        
+
+    #plot_elbow_curve(names, proposed, simplified_percent, winter_decomposition)
+    create_cluster_csv_xy(2, names, proposed, simplified_percent)
+    #create_cluster_csv_xy(3, names, proposed, simplified_percent)
+
+    # download RGB images to analisis
+    if len(verify_kml_files) > 0:
+         offset_list, images_list, error = download_from_kml('2023-05-05', ['B4','B3','B2'])
+         error_book.append(error)
+         image_directory = './static'
+         if len(images_list) == 0:
+             error_book.append('not a single image was downloaded from kml files, check errors above.')
+    else:
+         print('no kml for imagens to RGB download')
+
     # print block
     print('diretorio imagens -->', os.listdir('./static'))
     print(30*'_','\n\n   RESULTS \n')

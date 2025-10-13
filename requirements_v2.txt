@@ -1,0 +1,16 @@
+numpy==1.25.2
+pandas
+scipy==1.11.3
+earthengine-api
+geemap
+GDAL==3.4.1
+fastkml
+geojson
+pygeoif
+Pillow
+imageio
+scikit-learn
+fastapi
+uvicorn
+python-multipart
+matplotlib
